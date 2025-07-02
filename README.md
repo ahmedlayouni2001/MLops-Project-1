@@ -1,7 +1,7 @@
 #  MLOps-Project-1
 
 ## Project Objective
-Forecast hourly temperature using:
+Forecast hourly temperature and precipitation using:
 - 3 statistical models
 - 1 ML model (to analyze its limitations for time series)
 - 5 DL models
