@@ -7,8 +7,8 @@ def load_weather_data(file_path):
         print(f" Columns: {list(df.columns)}")
         
         # Optionally parse datetime if a timestamp column exists
-        if 'timestamp' in df.columns:
-            df['timestamp'] = pd.to_datetime(df['timestamp'])
+        if 'valid_time' in df.columns:
+            df['valid_time'] = pd.to_datetime(df['valid_time'])
         
         return df
     
